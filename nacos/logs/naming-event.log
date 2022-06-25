@@ -528,3 +528,5 @@
 
 2022-06-25 19:42:50,580 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.31.65:8301_true,
 
+2022-06-25 19:43:53,267 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.31.65:8301_true,
+
