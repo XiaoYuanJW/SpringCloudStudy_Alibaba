@@ -1,0 +1,50 @@
+2022-06-23 23:05:58,387 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.31.65:8102:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.31.65:8101:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-06-23 23:05:58,391 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.31.65:8102_true,192.168.31.65:8101_false,
+
+2022-06-23 23:05:58,401 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 4, content: [192.168.31.65:8102:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.31.65:8101:unknown:DEFAULT_1.0_false_false_DEFAULT, 172.16.10.223:8101:unknown:DEFAULT_1.0_false_false_DEFAULT, 172.16.10.223:8102:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-06-23 23:05:58,401 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@user-service, ips: 172.16.10.223:8101_false,172.16.10.223:8102_false,192.168.31.65:8102_true,192.168.31.65:8101_false,
+
+2022-06-23 23:06:02,110 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.31.65:8102@DEFAULT in 1, msg: tcp:timeout
+
+2022-06-23 23:06:03,783 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.31.65:8102@DEFAULT in 2, msg: tcp:timeout
+
+2022-06-23 23:06:05,203 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-DISABLED} invalid: 192.168.31.65:8102@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-06-23 23:06:08,702 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-DISABLED} invalid: 192.168.31.65:8102@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-06-23 23:09:45,209 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [192.168.31.65:8202:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2022-06-23 23:09:45,210 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@book-service, ips: 192.168.31.65:8202_true,
+
+2022-06-23 23:09:45,555 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Jiangsu, new ips size: 1, content: [192.168.31.65:8201:unknown:Jiangsu_1.0_true_false_Jiangsu]
+
+2022-06-23 23:09:45,555 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@book-service, ips: 192.168.31.65:8202_true,192.168.31.65:8201_true,
+
+2022-06-23 23:09:51,564 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@user-service, ips: 172.16.10.223:8101_false,172.16.10.223:8102_false,192.168.31.65:8102_false,192.168.31.65:8101_false,
+
+2022-06-23 23:09:53,545 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.31.65:8101@DEFAULT in 1, msg: tcp:ok+
+
+2022-06-23 23:09:54,044 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@user-service, ips: 172.16.10.223:8101_false,172.16.10.223:8102_false,192.168.31.65:8102_false,192.168.31.65:8101_false,
+
+2022-06-23 23:09:54,527 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.31.65:8101@DEFAULT in 2, msg: tcp:ok+
+
+2022-06-23 23:09:54,527 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.31.65:8102@DEFAULT in 1, msg: tcp:ok+
+
+2022-06-23 23:09:58,038 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: Jiangsu, new ips size: 1, content: [192.168.31.65:8301:unknown:Jiangsu_1.0_true_false_Jiangsu]
+
+2022-06-23 23:09:58,038 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.31.65:8301_true,
+
+2022-06-23 23:09:58,548 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.31.65:8102@DEFAULT in 2, msg: tcp:ok+
+
+2022-06-23 23:09:58,548 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-ENABLED} valid: 192.168.31.65:8101@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-06-23 23:09:59,532 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-ENABLED} valid: 192.168.31.65:8101@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-06-23 23:09:59,532 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-ENABLED} valid: 192.168.31.65:8102@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-06-23 23:10:03,246 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-ENABLED} valid: 192.168.31.65:8102@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-06-23 23:53:30,521 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.31.65:8301_true,
+

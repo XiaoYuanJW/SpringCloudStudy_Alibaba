@@ -1,0 +1,54 @@
+2022-06-23 23:05:57,104 INFO raft peers changed: [Member{ip='192.168.31.65', port=8848, state=UP, extendInfo={raftPort=7848}}]
+
+2022-06-23 23:05:57,131 INFO initializing Raft sub-system
+
+2022-06-23 23:05:57,311 INFO finish loading all datums, size: 4 cost 180 ms.
+
+2022-06-23 23:05:57,323 INFO cache loaded, datum count: 4, current term: 400
+
+2022-06-23 23:05:57,323 INFO finish to load data from disk, cost: 192 ms.
+
+2022-06-23 23:05:57,327 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2022-06-23 23:05:58,274 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2022-06-23 23:05:58,292 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2022-06-23 23:05:58,292 INFO [RAFT-NOTIFIER] datum is changed, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@user-service, value: Service{name='DEFAULT_GROUP@@user-service', protectThreshold=0.0, appName='null', groupName='DEFAULT_GROUP', metadata={}}
+
+2022-06-23 23:05:58,361 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@user-service
+
+2022-06-23 23:05:58,400 INFO [RAFT-NOTIFIER] datum is changed, key: com.alibaba.nacos.naming.domains.meta.68928803-bcbf-40a4-ba9a-1bb84ff12238##DEFAULT_GROUP@@user-service, value: Service{name='DEFAULT_GROUP@@user-service', protectThreshold=0.0, appName='null', groupName='DEFAULT_GROUP', metadata={}}
+
+2022-06-23 23:05:58,400 INFO add listener: com.alibaba.nacos.naming.iplist.68928803-bcbf-40a4-ba9a-1bb84ff12238##DEFAULT_GROUP@@user-service
+
+2022-06-23 23:06:02,047 WARN start to close old raft protocol!!!
+
+2022-06-23 23:06:02,047 WARN stop old raft protocol task for notifier
+
+2022-06-23 23:06:02,047 WARN stop old raft protocol task for master task
+
+2022-06-23 23:06:02,047 WARN stop old raft protocol task for heartbeat task
+
+2022-06-23 23:06:02,047 WARN clean old cache datum for old raft
+
+2022-06-23 23:06:02,047 WARN start to close old raft protocol!!!
+
+2022-06-23 23:06:02,047 WARN stop old raft protocol task for notifier
+
+2022-06-23 23:06:02,047 WARN stop old raft protocol task for master task
+
+2022-06-23 23:06:02,047 WARN stop old raft protocol task for heartbeat task
+
+2022-06-23 23:06:02,047 WARN clean old cache datum for old raft
+
+2022-06-23 23:06:02,047 WARN start to move old raft protocol metadata
+
+2022-06-23 23:06:02,462 WARN start to move old raft protocol metadata
+
+2022-06-23 23:06:02,463 INFO raft peers changed: [Member{ip='192.168.31.65', port=8848, state=UP, extendInfo={lastRefreshTime=1655996762462, raftPort=7848, version=1.4.3}}]
+
+2022-06-23 23:09:45,181 INFO add listener: com.alibaba.nacos.naming.iplist.68928803-bcbf-40a4-ba9a-1bb84ff12238##DEFAULT_GROUP@@book-service
+
+2022-06-23 23:09:58,038 INFO add listener: com.alibaba.nacos.naming.iplist.68928803-bcbf-40a4-ba9a-1bb84ff12238##DEFAULT_GROUP@@borrow-service
+

@@ -1,0 +1,14 @@
+server:
+  port: 8101
+spring:
+  application:
+    name: user-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        ephemeral: false # 是否是临时实例
+        namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238
+    sentinel:
+      transport:
+        dashboard: localhost:8858

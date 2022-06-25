@@ -1,0 +1,30 @@
+server:
+  port: 8301
+spring:
+  application:
+    name: borrow-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cloudstudy_borrow
+    username: root
+    password: 13851176590++
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        cluster-name: Jiangsu
+        namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238
+    loadbalancer:
+      nacos:
+        enabled: true
+    sentinel:
+      transport:
+        dashboard: localhost:8858
+      web-context-unify: false # 关闭 context 收敛
+      block-page: /rateLimit/customBlockHandler # 自定义限流映射页面
+mybatis:
+  mapper-locations:
+    - classpath:mapper/*.xml
+service-url:
+  user-service: http://user-service
+  book-service: http://book-service

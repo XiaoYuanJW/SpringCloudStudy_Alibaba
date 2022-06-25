@@ -1,0 +1,204 @@
+2022-06-22 15:10:07,507 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.31.65:8102:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.31.65:8101:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-06-22 15:10:07,514 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.31.65:8102_true,192.168.31.65:8101_false,
+
+2022-06-22 15:10:07,527 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.31.65:8102:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.31.65:8101:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-06-22 15:10:07,527 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@user-service, ips: 192.168.31.65:8102_true,192.168.31.65:8101_false,
+
+2022-06-22 15:10:10,240 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.31.65:8102@DEFAULT in 1, msg: tcp:timeout
+
+2022-06-22 15:10:12,457 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.31.65:8102@DEFAULT in 2, msg: tcp:timeout
+
+2022-06-22 15:10:13,523 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-DISABLED} invalid: 192.168.31.65:8102@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-06-22 15:10:15,621 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-DISABLED} invalid: 192.168.31.65:8102@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-06-22 16:55:27,672 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [172.16.10.223:8202:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2022-06-22 16:55:27,673 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@book-service, ips: 172.16.10.223:8202_true,
+
+2022-06-22 16:55:47,643 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Jiangsu, new ips size: 1, content: [172.16.10.223:8201:unknown:Jiangsu_1.0_true_false_Jiangsu]
+
+2022-06-22 16:55:47,643 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@book-service, ips: 172.16.10.223:8202_true,172.16.10.223:8201_true,
+
+2022-06-22 16:58:22,731 INFO {POS} {IP-DISABLED} valid: 172.16.10.223:8202@Shanghai@DEFAULT_GROUP@@book-service, region: unknown, msg: client timeout after 15000, last beat: 1655888282796
+
+2022-06-22 16:58:22,778 INFO {POS} {IP-DISABLED} valid: 172.16.10.223:8201@Jiangsu@DEFAULT_GROUP@@book-service, region: unknown, msg: client timeout after 15000, last beat: 1655888282951
+
+2022-06-22 16:58:36,537 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@book-service, ips: 172.16.10.223:8202_false,172.16.10.223:8201_false,
+
+2022-06-22 16:58:38,028 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.16.10.223:8101:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-22 16:58:38,028 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@user-service, ips: 172.16.10.223:8101_true,192.168.31.65:8102_false,192.168.31.65:8101_false,
+
+2022-06-22 16:58:39,041 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: Jiangsu, dead ips size: 1, content: [172.16.10.223:8201:unknown:Jiangsu_1.0_false_false_Jiangsu]
+
+2022-06-22 16:58:39,041 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@book-service, ips: 172.16.10.223:8202_false,
+
+2022-06-22 16:58:39,973 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 172.16.10.223:8101@DEFAULT in 1, msg: tcp:ok+
+
+2022-06-22 16:58:41,353 INFO service: DEFAULT_GROUP@@book-service {POS} {IP-ENABLED} valid: 172.16.10.223:8202@Shanghai, region: unknown, msg: client beat ok
+
+2022-06-22 16:58:42,151 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Jiangsu, new ips size: 1, content: [172.16.10.223:8201:unknown:Jiangsu_1.0_true_false_Jiangsu]
+
+2022-06-22 16:58:42,151 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@book-service, ips: 172.16.10.223:8202_true,172.16.10.223:8201_true,
+
+2022-06-22 16:58:44,469 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 172.16.10.223:8101@DEFAULT in 2, msg: tcp:ok+
+
+2022-06-22 16:58:49,480 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-ENABLED} valid: 172.16.10.223:8101@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-06-22 16:58:49,652 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.16.10.223:8102:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-22 16:58:49,653 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@user-service, ips: 172.16.10.223:8101_true,172.16.10.223:8102_true,192.168.31.65:8102_false,192.168.31.65:8101_false,
+
+2022-06-22 16:58:53,161 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: Jiangsu, new ips size: 1, content: [172.16.10.223:8301:unknown:Jiangsu_1.0_true_false_Jiangsu]
+
+2022-06-22 16:58:53,161 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@borrow-service, ips: 172.16.10.223:8301_true,
+
+2022-06-22 16:58:54,652 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 172.16.10.223:8102@DEFAULT in 1, msg: tcp:ok+
+
+2022-06-22 16:58:54,652 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-ENABLED} valid: 172.16.10.223:8101@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-06-22 16:58:59,498 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 172.16.10.223:8102@DEFAULT in 2, msg: tcp:ok+
+
+2022-06-22 16:59:04,017 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-ENABLED} valid: 172.16.10.223:8102@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-06-22 17:45:15,856 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 172.16.10.223:8102@DEFAULT in 1, msg: tcp:error:远程主机强迫关闭了一个现有的连接。
+
+2022-06-22 17:45:15,857 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 172.16.10.223:8101@DEFAULT in 1, msg: tcp:error:远程主机强迫关闭了一个现有的连接。
+
+2022-06-22 23:34:40,581 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 2, content: [192.168.31.65:8102:unknown:DEFAULT_1.0_true_false_DEFAULT, 192.168.31.65:8101:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-06-22 23:34:40,586 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.31.65:8102_true,192.168.31.65:8101_false,
+
+2022-06-22 23:34:40,605 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 4, content: [192.168.31.65:8102:unknown:DEFAULT_1.0_false_false_DEFAULT, 192.168.31.65:8101:unknown:DEFAULT_1.0_false_false_DEFAULT, 172.16.10.223:8101:unknown:DEFAULT_1.0_true_false_DEFAULT, 172.16.10.223:8102:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-22 23:34:40,605 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@user-service, ips: 172.16.10.223:8101_true,172.16.10.223:8102_true,192.168.31.65:8102_false,192.168.31.65:8101_false,
+
+2022-06-22 23:34:43,398 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 172.16.10.223:8101@DEFAULT in 1, msg: tcp:timeout
+
+2022-06-22 23:34:43,398 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 172.16.10.223:8102@DEFAULT in 1, msg: tcp:timeout
+
+2022-06-22 23:34:45,451 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Jiangsu, new ips size: 1, content: [192.168.31.65:8201:unknown:Jiangsu_1.0_true_false_Jiangsu]
+
+2022-06-22 23:34:45,453 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@book-service, ips: 192.168.31.65:8201_true,
+
+2022-06-22 23:34:45,469 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [192.168.31.65:8202:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2022-06-22 23:34:45,469 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@book-service, ips: 192.168.31.65:8202_true,192.168.31.65:8201_true,
+
+2022-06-22 23:34:45,568 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 172.16.10.223:8102@DEFAULT in 2, msg: tcp:timeout
+
+2022-06-22 23:34:45,568 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 172.16.10.223:8101@DEFAULT in 2, msg: tcp:timeout
+
+2022-06-22 23:34:48,269 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.31.65:8102@DEFAULT in 1, msg: tcp:timeout
+
+2022-06-22 23:34:49,625 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-DISABLED} invalid: 172.16.10.223:8101@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-06-22 23:34:49,625 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-DISABLED} invalid: 172.16.10.223:8102@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-06-22 23:34:52,123 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@user-service, ips: 172.16.10.223:8101_false,172.16.10.223:8102_false,192.168.31.65:8102_false,192.168.31.65:8101_false,
+
+2022-06-22 23:34:52,145 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.31.65:8101@DEFAULT in 1, msg: tcp:ok+
+
+2022-06-22 23:34:52,658 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.31.65:8102@DEFAULT in 2, msg: tcp:timeout
+
+2022-06-22 23:34:54,125 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.31.65:8101@DEFAULT in 2, msg: tcp:ok+
+
+2022-06-22 23:34:54,413 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@user-service, ips: 172.16.10.223:8101_false,172.16.10.223:8102_false,192.168.31.65:8102_false,192.168.31.65:8101_false,
+
+2022-06-22 23:34:56,305 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: Jiangsu, new ips size: 1, content: [192.168.31.65:8301:unknown:Jiangsu_1.0_true_false_Jiangsu]
+
+2022-06-22 23:34:56,305 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.31.65:8301_true,
+
+2022-06-22 23:34:57,147 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.31.65:8102@DEFAULT in 1, msg: tcp:ok+
+
+2022-06-22 23:34:57,147 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-ENABLED} valid: 192.168.31.65:8101@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-06-22 23:34:59,124 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.31.65:8102@DEFAULT in 2, msg: tcp:ok+
+
+2022-06-22 23:34:59,124 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-ENABLED} valid: 192.168.31.65:8101@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-06-22 23:35:01,838 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-ENABLED} valid: 192.168.31.65:8102@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-06-22 23:35:04,124 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-ENABLED} valid: 192.168.31.65:8102@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-06-22 23:35:04,989 INFO {POS} {IP-DISABLED} valid: 192.168.31.65:8202@Shanghai@DEFAULT_GROUP@@book-service, region: unknown, msg: client timeout after 15000, last beat: 1655912085470
+
+2022-06-22 23:35:20,598 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: Shanghai, dead ips size: 1, content: [192.168.31.65:8202:unknown:Shanghai_1.0_false_false_Shanghai]
+
+2022-06-22 23:35:20,598 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@book-service, ips: 192.168.31.65:8201_true,
+
+2022-06-22 23:35:45,044 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Shanghai, new ips size: 1, content: [192.168.31.65:8202:unknown:Shanghai_1.0_true_false_Shanghai]
+
+2022-06-22 23:35:45,044 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@book-service, ips: 192.168.31.65:8202_true,192.168.31.65:8201_true,
+
+2022-06-22 23:42:45,361 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.31.65:8102@DEFAULT in 1, msg: tcp:timeout
+
+2022-06-22 23:42:45,361 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.31.65:8101@DEFAULT in 1, msg: tcp:timeout
+
+2022-06-22 23:42:46,005 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.31.65:8102@DEFAULT in 2, msg: tcp:timeout
+
+2022-06-22 23:42:46,005 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.31.65:8101@DEFAULT in 2, msg: tcp:timeout
+
+2022-06-22 23:42:47,596 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-DISABLED} invalid: 192.168.31.65:8102@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-06-22 23:42:47,596 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-DISABLED} invalid: 192.168.31.65:8101@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-06-22 23:42:48,614 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-DISABLED} invalid: 192.168.31.65:8101@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-06-22 23:42:48,614 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-DISABLED} invalid: 192.168.31.65:8102@DEFAULT, region: unknown, msg: tcp:timeout
+
+2022-06-22 23:42:56,305 INFO {POS} {IP-DISABLED} valid: 192.168.31.65:8202@Shanghai@DEFAULT_GROUP@@book-service, region: unknown, msg: client timeout after 15000, last beat: 1655912560943
+
+2022-06-22 23:43:01,309 INFO {POS} {IP-DISABLED} valid: 192.168.31.65:8201@Jiangsu@DEFAULT_GROUP@@book-service, region: unknown, msg: client timeout after 15000, last beat: 1655912561451
+
+2022-06-22 23:43:01,595 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@book-service, ips: 192.168.31.65:8202_false,192.168.31.65:8201_false,
+
+2022-06-22 23:43:02,087 INFO {POS} {IP-DISABLED} valid: 192.168.31.65:8301@Jiangsu@DEFAULT_GROUP@@borrow-service, region: unknown, msg: client timeout after 15000, last beat: 1655912562304
+
+2022-06-22 23:43:06,241 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@book-service, ips: 192.168.31.65:8202_false,192.168.31.65:8201_false,
+
+2022-06-22 23:43:06,618 INFO service: DEFAULT_GROUP@@book-service {POS} {IP-ENABLED} valid: 192.168.31.65:8202@Shanghai, region: unknown, msg: client beat ok
+
+2022-06-22 23:43:11,246 INFO service: DEFAULT_GROUP@@book-service {POS} {IP-ENABLED} valid: 192.168.31.65:8201@Jiangsu, region: unknown, msg: client beat ok
+
+2022-06-22 23:43:13,780 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@user-service, ips: 172.16.10.223:8101_false,172.16.10.223:8102_false,192.168.31.65:8102_false,192.168.31.65:8101_false,
+
+2022-06-22 23:43:14,721 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.31.65:8101@DEFAULT in 1, msg: tcp:ok+
+
+2022-06-22 23:43:17,108 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-DEAD} cluster: Jiangsu, dead ips size: 1, content: [192.168.31.65:8301:unknown:Jiangsu_1.0_false_false_Jiangsu]
+
+2022-06-22 23:43:17,108 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@borrow-service, ips: 
+
+2022-06-22 23:43:18,287 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.31.65:8101@DEFAULT in 2, msg: tcp:ok+
+
+2022-06-22 23:43:18,802 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@user-service, ips: 172.16.10.223:8101_false,172.16.10.223:8102_false,192.168.31.65:8102_false,192.168.31.65:8101_false,
+
+2022-06-22 23:43:19,727 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.31.65:8102@DEFAULT in 1, msg: tcp:ok+
+
+2022-06-22 23:43:19,727 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-ENABLED} valid: 192.168.31.65:8101@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-06-22 23:43:22,859 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: Jiangsu, new ips size: 1, content: [192.168.31.65:8301:unknown:Jiangsu_1.0_true_false_Jiangsu]
+
+2022-06-22 23:43:22,859 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.31.65:8301_true,
+
+2022-06-22 23:43:23,291 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-ENABLED} pre-valid: 192.168.31.65:8102@DEFAULT in 2, msg: tcp:ok+
+
+2022-06-22 23:43:23,291 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-ENABLED} valid: 192.168.31.65:8101@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-06-22 23:43:24,734 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-ENABLED} valid: 192.168.31.65:8102@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-06-22 23:43:27,980 INFO serviceName: DEFAULT_GROUP@@user-service {POS} {IP-ENABLED} valid: 192.168.31.65:8102@DEFAULT, region: unknown, msg: tcp:ok+
+
+2022-06-22 23:46:57,630 INFO [IP-UPDATED] namespace: 68928803-bcbf-40a4-ba9a-1bb84ff12238, service: DEFAULT_GROUP@@book-service, ips: 192.168.31.65:8202_true,192.168.31.65:8201_true,
+
+2022-06-22 23:54:49,622 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.31.65:8101@DEFAULT in 1, msg: tcp:error:远程主机强迫关闭了一个现有的连接。
+
+2022-06-22 23:54:49,877 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.31.65:8102@DEFAULT in 1, msg: tcp:error:远程主机强迫关闭了一个现有的连接。
+
+2022-06-22 23:54:50,629 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.31.65:8101@DEFAULT in 2, msg: tcp:timeout
+
+2022-06-22 23:54:50,629 INFO serviceName: DEFAULT_GROUP@@user-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.31.65:8102@DEFAULT in 2, msg: tcp:timeout
+

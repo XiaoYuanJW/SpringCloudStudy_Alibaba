@@ -1,0 +1,178 @@
+2022-06-23 23:05:57,113 INFO GlobalConfig{taskDispatchPeriod=2000, batchSyncKeyCount=1000, syncRetryDelay=5000, dataWarmup=false, expireInstance=true, loadDataRetryDelayMillis=30000}
+
+2022-06-23 23:05:58,291 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-06-23 23:05:58,292 INFO listen for service meta change
+
+2022-06-23 23:05:58,361 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@user-service, value: {"instanceList":[{"instanceId":"192.168.31.65#8102#DEFAULT#DEFAULT_GROUP@@user-service","ip":"192.168.31.65","port":8102,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":false,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@user-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1655011680472,"marked":false,"app":"unknown","instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000},{"instanceId":"192.168.31.65#8101#DEFAULT#DEFAULT_GROUP@@user-service","ip":"192.168.31.65","port":8101,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":false,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@user-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1655011677246,"marked":false,"app":"unknown","instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000}]}
+
+2022-06-23 23:05:58,399 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@user-service","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1655996758387,"checksum":"8b582f74f5408a9d660187b3dd54c08a","clusterMap":{"DEFAULT":{"serviceName":"DEFAULT_GROUP@@user-service","name":"DEFAULT","healthChecker":{"type":"TCP"},"defaultPort":80,"defaultCheckPort":80,"useIPPort4Check":true,"metadata":{},"sitegroup":"","defCkport":80,"empty":false,"defIPPort":80}},"empty":false}
+
+2022-06-23 23:05:58,400 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.68928803-bcbf-40a4-ba9a-1bb84ff12238##DEFAULT_GROUP@@user-service, value: {"instanceList":[{"instanceId":"192.168.31.65#8102#DEFAULT#DEFAULT_GROUP@@user-service","ip":"192.168.31.65","port":8102,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":false,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@user-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1655912598799,"marked":false,"app":"unknown","instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000},{"instanceId":"192.168.31.65#8101#DEFAULT#DEFAULT_GROUP@@user-service","ip":"192.168.31.65","port":8101,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":false,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@user-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1655912593775,"marked":false,"app":"unknown","instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000},{"instanceId":"172.16.10.223#8101#DEFAULT#DEFAULT_GROUP@@user-service","ip":"172.16.10.223","port":8101,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":false,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@user-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1655888316343,"marked":false,"app":"unknown","instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000},{"instanceId":"172.16.10.223#8102#DEFAULT#DEFAULT_GROUP@@user-service","ip":"172.16.10.223","port":8102,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":false,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@user-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1655888329597,"marked":false,"app":"unknown","instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000}]}
+
+2022-06-23 23:05:58,401 WARN cluster: DEFAULT not found, ip: {"instanceId":"192.168.31.65#8102#DEFAULT#DEFAULT_GROUP@@user-service","ip":"192.168.31.65","port":8102,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":false,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@user-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1655912598799,"marked":false,"app":"unknown","instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000}, will create new cluster with default configuration.
+
+2022-06-23 23:05:58,402 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@user-service","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"68928803-bcbf-40a4-ba9a-1bb84ff12238","ipDeleteTimeout":30000,"lastModifiedMillis":1655996758401,"checksum":"511780af7fc91f6de6338c4c0c7c9fed","clusterMap":{"DEFAULT":{"serviceName":"DEFAULT_GROUP@@user-service","name":"DEFAULT","healthChecker":{"type":"TCP"},"defaultPort":80,"defaultCheckPort":80,"useIPPort4Check":true,"metadata":{},"sitegroup":"","defCkport":80,"empty":false,"defIPPort":80}},"empty":false}
+
+2022-06-23 23:06:02,462 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.31.65:8848], new: [192.168.31.65:8848]
+
+2022-06-23 23:09:45,180 INFO creating empty service 68928803-bcbf-40a4-ba9a-1bb84ff12238:DEFAULT_GROUP@@book-service
+
+2022-06-23 23:09:45,202 WARN cluster: Shanghai not found, ip: {"instanceId":"192.168.31.65#8202#Shanghai#DEFAULT_GROUP@@book-service","ip":"192.168.31.65","port":8202,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"Shanghai","serviceName":"DEFAULT_GROUP@@book-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1655996985201,"marked":false,"app":"unknown","instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000}, will create new cluster with default configuration.
+
+2022-06-23 23:09:45,209 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.68928803-bcbf-40a4-ba9a-1bb84ff12238##DEFAULT_GROUP@@book-service, value: {"instanceList":[{"instanceId":"192.168.31.65#8202#Shanghai#DEFAULT_GROUP@@book-service","ip":"192.168.31.65","port":8202,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"Shanghai","serviceName":"DEFAULT_GROUP@@book-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1655996985201,"marked":false,"app":"unknown","instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000}]}
+
+2022-06-23 23:09:45,551 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@book-service","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"68928803-bcbf-40a4-ba9a-1bb84ff12238","ipDeleteTimeout":30000,"lastModifiedMillis":1655996985209,"checksum":"a07e8af2d379489a4d95f6ee95820da9","clusterMap":{"Shanghai":{"serviceName":"DEFAULT_GROUP@@book-service","name":"Shanghai","healthChecker":{"type":"TCP"},"defaultPort":80,"defaultCheckPort":80,"useIPPort4Check":true,"metadata":{},"sitegroup":"","defCkport":80,"empty":false,"defIPPort":80}},"empty":false}
+
+2022-06-23 23:09:45,551 WARN cluster: Jiangsu not found, ip: {"instanceId":"192.168.31.65#8201#Jiangsu#DEFAULT_GROUP@@book-service","ip":"192.168.31.65","port":8201,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"Jiangsu","serviceName":"DEFAULT_GROUP@@book-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1655996985179,"marked":false,"app":"unknown","instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000}, will create new cluster with default configuration.
+
+2022-06-23 23:09:45,554 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.68928803-bcbf-40a4-ba9a-1bb84ff12238##DEFAULT_GROUP@@book-service, value: {"instanceList":[{"instanceId":"192.168.31.65#8202#Shanghai#DEFAULT_GROUP@@book-service","ip":"192.168.31.65","port":8202,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"Shanghai","serviceName":"DEFAULT_GROUP@@book-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1655996985201,"marked":false,"app":"unknown","instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000},{"instanceId":"192.168.31.65#8201#Jiangsu#DEFAULT_GROUP@@book-service","ip":"192.168.31.65","port":8201,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"Jiangsu","serviceName":"DEFAULT_GROUP@@book-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1655996985179,"marked":false,"app":"unknown","instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000}]}
+
+2022-06-23 23:09:51,328 WARN protect threshold reached, return all ips, service: DEFAULT_GROUP@@user-service
+
+2022-06-23 23:09:51,563 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.68928803-bcbf-40a4-ba9a-1bb84ff12238##DEFAULT_GROUP@@user-service, value: {"instanceList":[{"instanceId":"192.168.31.65#8102#DEFAULT#DEFAULT_GROUP@@user-service","ip":"192.168.31.65","port":8102,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":false,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@user-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1655912598799,"marked":false,"app":"unknown","instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000},{"instanceId":"192.168.31.65#8101#DEFAULT#DEFAULT_GROUP@@user-service","ip":"192.168.31.65","port":8101,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":false,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@user-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1655996991424,"marked":false,"app":"unknown","instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000},{"instanceId":"172.16.10.223#8101#DEFAULT#DEFAULT_GROUP@@user-service","ip":"172.16.10.223","port":8101,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":false,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@user-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1655888316343,"marked":false,"app":"unknown","instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000},{"instanceId":"172.16.10.223#8102#DEFAULT#DEFAULT_GROUP@@user-service","ip":"172.16.10.223","port":8102,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":false,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@user-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1655888329597,"marked":false,"app":"unknown","instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000}]}
+
+2022-06-23 23:09:52,410 WARN protect threshold reached, return all ips, service: DEFAULT_GROUP@@user-service
+
+2022-06-23 23:09:52,565 WARN protect threshold reached, return all ips, service: DEFAULT_GROUP@@user-service
+
+2022-06-23 23:09:53,971 WARN protect threshold reached, return all ips, service: DEFAULT_GROUP@@user-service
+
+2022-06-23 23:09:54,043 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.68928803-bcbf-40a4-ba9a-1bb84ff12238##DEFAULT_GROUP@@user-service, value: {"instanceList":[{"instanceId":"192.168.31.65#8102#DEFAULT#DEFAULT_GROUP@@user-service","ip":"192.168.31.65","port":8102,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":false,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@user-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1655996994039,"marked":false,"app":"unknown","instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000},{"instanceId":"192.168.31.65#8101#DEFAULT#DEFAULT_GROUP@@user-service","ip":"192.168.31.65","port":8101,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":false,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@user-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1655996991424,"marked":false,"app":"unknown","instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000},{"instanceId":"172.16.10.223#8101#DEFAULT#DEFAULT_GROUP@@user-service","ip":"172.16.10.223","port":8101,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":false,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@user-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1655888316343,"marked":false,"app":"unknown","instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000},{"instanceId":"172.16.10.223#8102#DEFAULT#DEFAULT_GROUP@@user-service","ip":"172.16.10.223","port":8102,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":false,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@user-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1655888329597,"marked":false,"app":"unknown","instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000}]}
+
+2022-06-23 23:09:55,029 WARN protect threshold reached, return all ips, service: DEFAULT_GROUP@@user-service
+
+2022-06-23 23:09:55,060 WARN protect threshold reached, return all ips, service: DEFAULT_GROUP@@user-service
+
+2022-06-23 23:09:55,061 WARN protect threshold reached, return all ips, service: DEFAULT_GROUP@@user-service
+
+2022-06-23 23:09:58,038 INFO creating empty service 68928803-bcbf-40a4-ba9a-1bb84ff12238:DEFAULT_GROUP@@borrow-service
+
+2022-06-23 23:09:58,038 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@borrow-service","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"68928803-bcbf-40a4-ba9a-1bb84ff12238","ipDeleteTimeout":30000,"lastModifiedMillis":1655996998038,"checksum":"cb61b5ffaf9675b5ebd89b5e07ff4b01","clusterMap":{},"empty":true}
+
+2022-06-23 23:09:58,038 WARN cluster: Jiangsu not found, ip: {"instanceId":"192.168.31.65#8301#Jiangsu#DEFAULT_GROUP@@borrow-service","ip":"192.168.31.65","port":8301,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"Jiangsu","serviceName":"DEFAULT_GROUP@@borrow-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1655996998037,"marked":false,"app":"unknown","instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000}, will create new cluster with default configuration.
+
+2022-06-23 23:09:58,038 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.68928803-bcbf-40a4-ba9a-1bb84ff12238##DEFAULT_GROUP@@borrow-service, value: {"instanceList":[{"instanceId":"192.168.31.65#8301#Jiangsu#DEFAULT_GROUP@@borrow-service","ip":"192.168.31.65","port":8301,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"Jiangsu","serviceName":"DEFAULT_GROUP@@borrow-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1655996998037,"marked":false,"app":"unknown","instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000}]}
+
+2022-06-23 23:12:22,686 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8102
+
+2022-06-23 23:12:22,686 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8101
+
+2022-06-23 23:13:40,391 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8102
+
+2022-06-23 23:13:40,391 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8101
+
+2022-06-23 23:23:39,961 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8102
+
+2022-06-23 23:23:39,961 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8101
+
+2022-06-23 23:24:33,719 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8102
+
+2022-06-23 23:24:33,719 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8101
+
+2022-06-23 23:28:07,641 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8102
+
+2022-06-23 23:28:07,641 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8101
+
+2022-06-23 23:30:55,200 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8102
+
+2022-06-23 23:30:55,200 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8101
+
+2022-06-23 23:33:06,473 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8102
+
+2022-06-23 23:33:06,473 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8101
+
+2022-06-23 23:33:34,768 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8102
+
+2022-06-23 23:33:34,768 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8101
+
+2022-06-23 23:35:44,003 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8102
+
+2022-06-23 23:35:44,003 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8101
+
+2022-06-23 23:36:05,216 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8102
+
+2022-06-23 23:36:05,216 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8101
+
+2022-06-23 23:36:38,573 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8102
+
+2022-06-23 23:36:38,573 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8101
+
+2022-06-23 23:38:22,649 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8102
+
+2022-06-23 23:38:22,649 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8101
+
+2022-06-23 23:38:57,965 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8102
+
+2022-06-23 23:38:57,965 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8101
+
+2022-06-23 23:39:02,124 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8102
+
+2022-06-23 23:39:02,124 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8101
+
+2022-06-23 23:40:15,796 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8102
+
+2022-06-23 23:40:15,796 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8101
+
+2022-06-23 23:41:04,247 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8102
+
+2022-06-23 23:41:04,247 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8101
+
+2022-06-23 23:45:18,478 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8102
+
+2022-06-23 23:45:18,478 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8101
+
+2022-06-23 23:46:40,228 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8102
+
+2022-06-23 23:46:40,228 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8101
+
+2022-06-23 23:46:41,797 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8102
+
+2022-06-23 23:46:41,797 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8101
+
+2022-06-23 23:47:23,722 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8102
+
+2022-06-23 23:47:23,722 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8101
+
+2022-06-23 23:49:00,604 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8102
+
+2022-06-23 23:49:00,604 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8101
+
+2022-06-23 23:49:57,191 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8102
+
+2022-06-23 23:49:57,191 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8101
+
+2022-06-23 23:49:58,768 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8102
+
+2022-06-23 23:49:58,768 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8101
+
+2022-06-23 23:50:32,649 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8102
+
+2022-06-23 23:50:32,649 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8101
+
+2022-06-23 23:50:45,778 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8102
+
+2022-06-23 23:50:45,778 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8101
+
+2022-06-23 23:53:05,108 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8102
+
+2022-06-23 23:53:05,108 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8101
+
+2022-06-23 23:53:30,504 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.68928803-bcbf-40a4-ba9a-1bb84ff12238##DEFAULT_GROUP@@borrow-service, value: {"instanceList":[{"instanceId":"192.168.31.65#8301#Jiangsu#DEFAULT_GROUP@@borrow-service","ip":"192.168.31.65","port":8301,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"Jiangsu","serviceName":"DEFAULT_GROUP@@borrow-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1655999610409,"marked":false,"app":"unknown","instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000}]}
+
+2022-06-23 23:53:52,553 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8102
+
+2022-06-23 23:53:52,553 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8101
+
+2022-06-23 23:54:26,840 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8102
+
+2022-06-23 23:54:26,840 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8101
+
+2022-06-23 23:56:30,962 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8102
+
+2022-06-23 23:56:30,962 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8101
+
+2022-06-23 23:57:16,386 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8102
+
+2022-06-23 23:57:16,386 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@user-service:DEFAULT:192.168.31.65:8101
+
